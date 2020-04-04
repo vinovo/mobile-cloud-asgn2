@@ -3,7 +3,7 @@ buildscript {
 		springBootVersion = '2.1.0.RELEASE'
 	}
     repositories {
-        maven { url "http://repo.spring.io/libs-snapshot" }
+        maven { url "https://repo.spring.io/libs-snapshot" }
         mavenLocal()
     }
     dependencies {
@@ -67,6 +67,4 @@ dependencies {
     testCompile("junit:junit")
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '5.0'
-}
+mainClassName = 'org.magnum.mobilecloud.model.Application'
