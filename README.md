@@ -1,5 +1,9 @@
 # Assignment 2 
 
+## Notice
+
+This is an assignment of an online course on coursera https://www.coursera.org/learn/cloud-services-java-spring-framework/home/welcome
+
 ## Overview
 
 This assignment will build on the ideas in the original video service to add OAuth 2.0
